@@ -37,6 +37,14 @@ img {
         height: auto;
         margin: 10px;
       }
+      .gallery-container {
+        display: flex;
+        justify-content: center; /* Center images horizontally */
+        flex-wrap: nowrap; /* Prevent wrapping to the next line */
+        overflow-x: auto; /* Add horizontal scroll if needed */
+        padding: 20px;
+      }
+
       .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
