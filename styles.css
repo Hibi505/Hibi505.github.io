@@ -47,9 +47,9 @@ html {
   }
   
   .gallery-container img {
-    width: 150px; 
+    width: 300px; 
     height: auto;
-    max-width: 100%; 
+    margin: 10px 0;
   }
   
   .section {
@@ -75,9 +75,9 @@ html {
   
   .centeredint-image {
     display: block;
-    width: 100%;
+    width: auto;
     height: auto;
     max-width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 20px auto;
     cursor: pointer;
   }
