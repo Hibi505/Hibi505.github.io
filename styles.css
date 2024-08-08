@@ -5,15 +5,6 @@ html {
  
 
 
-h1{
-    padding: 5px;
-    font-family: Arial;
-    font-size: 24px;
-    color: blue;
-    background: brown;
-  
-    
-    }
 
 img {
     width: 900px;
@@ -21,26 +12,47 @@ img {
     
     }
     
-h2{
-        padding: 10px;
-        font-family: fantasy;
-        font-size: 60px;
-        text-align: center;
-       
-        
-        
-        }
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: blue;
-    background: orange;
-    
-
-        }
+    h1 {
+        font-size: 36px;
+        margin-top: 20px;
+        color: blue;
+      }
+      h2 {
+        font-size: 28px;
+        margin: 20px 0;
+        color: blue;
+      }
+      p {
+        font-size: 18px;
+        margin: 20px;
+        color: blue;
+      }
+      .gallery {
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+      .gallery img {
+        width: 100%;
+        max-width: 300px; /* Adjust the size of images in the grid */
+        height: auto;
+        margin: 10px;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        padding: 20px;
+      }
+      .section {
+        padding: 20px;
+      }
+      .fan-community {
+        background-color: #ffebcd;
+        padding: 20px;
+        border: 2px solid #ff4500;
+        border-radius: 10px;
+        margin: 20px;
+      }
 
 .centered-image {
  display: block;
@@ -59,3 +71,4 @@ body{
     margin-bottom: 20px; /* Space between images */
     cursor: pointer;
     }
+
