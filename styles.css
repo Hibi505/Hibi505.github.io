@@ -1,11 +1,11 @@
 html {
-    background: orange; /* Set background color for the entire page */
+    background: orange; 
   }
   
   body {
     font-family: Arial, sans-serif;
     text-align: center;
-    color: blue; /* Set text color for the entire page */
+    color: blue; 
     margin: 0;
     padding: 0;
   }
@@ -35,16 +35,15 @@ html {
   
   .gallery-container {
     display: flex;
-    justify-content: center; /* Center images horizontally */
-    flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
-    gap: 10px; /* Space between images */
+    flex-direction: column; 
+    align-items: center; 
     padding: 20px;
   }
   
   .gallery-container img {
-    width: 150px; /* Set a fixed width for images */
+    width: 150px; 
     height: auto;
-    max-width: 100%; /* Ensure images don’t overflow their container */
+    max-width: 100%; 
   }
   
   .section {
@@ -59,7 +58,7 @@ html {
     margin: 20px;
   }
   
-  /* Remove these if not used or if redundant */
+  
   .centered-image {
     display: block;
     width: 100%;
