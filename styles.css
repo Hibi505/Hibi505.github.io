@@ -1,82 +1,78 @@
 html {
-    
-    background: orange;
- }
- 
-
-
-
-img {
-    width: 900px;
-    height: 900px;
-    
-    }
-    
-    h1 {
-        font-size: 36px;
-        margin-top: 20px;
-        color: blue;
-      }
-      h2 {
-        font-size: 28px;
-        margin: 20px 0;
-        color: blue;
-      }
-      p {
-        font-size: 18px;
-        margin: 20px;
-        color: blue;
-      }
-      .gallery {
-        margin: 0 auto;
-        max-width: 1200px;
-      }
-      .gallery img {
-        width: 100%;
-        max-width: 300px; /* Adjust the size of images in the grid */
-        height: auto;
-        margin: 10px;
-      }
-      .gallery-container {
-        display: flex;
-        justify-content: center; /* Center images horizontally */
-        flex-wrap: nowrap; /* Prevent wrapping to the next line */
-        overflow-x: auto; /* Add horizontal scroll if needed */
-        padding: 20px;
-      }
-
-      .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
-        padding: 20px;
-      }
-      .section {
-        padding: 20px;
-      }
-      .fan-community {
-        background-color: #ffebcd;
-        padding: 20px;
-        border: 2px solid #ff4500;
-        border-radius: 10px;
-        margin: 20px;
-      }
-
-.centered-image {
- display: block;
- width: 100%;
- height: auto;
- max-width: 100%; /* Ensures images do not overflow the container */
- margin-bottom: 100px; /* Space between images */
- 
- }
-
- .centeredint-image {
+    background: orange; /* Set background color for the entire page */
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: blue; /* Set text color for the entire page */
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: blue;
+  }
+  
+  h2 {
+    font-size: 28px;
+    margin: 20px 0;
+    color: blue;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 20px;
+    color: blue;
+  }
+  
+  .gallery {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  .gallery-container {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    flex-wrap: wrap; /* Allow images to wrap onto multiple lines */
+    gap: 10px; /* Space between images */
+    padding: 20px;
+  }
+  
+  .gallery-container img {
+    width: 150px; /* Set a fixed width for images */
+    height: auto;
+    max-width: 100%; /* Ensure images don’t overflow their container */
+  }
+  
+  .section {
+    padding: 20px;
+  }
+  
+  .fan-community {
+    background-color: #ffebcd;
+    padding: 20px;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  /* Remove these if not used or if redundant */
+  .centered-image {
     display: block;
     width: 100%;
     height: auto;
-    max-width: 100%; /* Ensures images do not overflow the container */
-    margin-bottom: 20px; /* Space between images */
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+  
+  .centeredint-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 20px;
     cursor: pointer;
-    }
-
+  }
