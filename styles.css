@@ -18,6 +18,9 @@ html {
   
   img{
 padding: 30px;
+align-items: center; 
+
+
   }
   
   
@@ -66,15 +69,14 @@ padding: 30px;
   
   .centered-image {
     display: block;
-    width: auto;
-    height: auto;
-    max-width: 100%;
+    width: 100%;
+ height: auto;
     margin-bottom: 100px;
   }
   
   .centeredint-image {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
